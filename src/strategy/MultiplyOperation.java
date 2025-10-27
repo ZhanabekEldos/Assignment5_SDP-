@@ -1,3 +1,4 @@
+//concrete strategies.
 package strategy;
 public class MultiplyOperation implements Operation {
     // Override the execute method from the Operation interface

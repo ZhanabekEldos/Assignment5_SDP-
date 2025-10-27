@@ -1,3 +1,4 @@
+//concrete strategies.
 package strategy;
 public class DivideOperation implements Operation {
     @Override

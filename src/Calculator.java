@@ -1,3 +1,4 @@
+// The Facade Pattern simplifies complex systems by providing a single, unified interface to the client.
 import strategy.Operation;
 public class Calculator {
     private Operation operation;    // A reference to an Operation object (the current strategy)
@@ -14,3 +15,4 @@ public class Calculator {
         return operation.execute(a, b);    // Delegate the actual work to the chosen Operation's execute() method
     }
 }
+//So Calculator is the facade that makes working with strategies simple and clear.
