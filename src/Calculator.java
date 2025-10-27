@@ -6,7 +6,6 @@ public class Calculator {
     public void setOperation(Operation operation) {
         this.operation = operation;
     }    // Method to set the operation (strategy) dynamically at runtime
-
     // Method that performs the calculation using the selected strategy
     public double calculate(double a, double b) {
         if (operation == null) {
